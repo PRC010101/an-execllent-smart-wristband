@@ -178,7 +178,7 @@ void loop()
  u8g.print("your steps are:");
  u8g.setPrintPos(0, 30);
  u8g.print("        ");
- u8g.print("324steps");
+ u8g.print(tiltheading);
  }while( u8g.nextPage() );}else{
    do {
  distancerecord();
